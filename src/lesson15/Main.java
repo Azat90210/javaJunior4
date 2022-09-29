@@ -1,14 +1,18 @@
 package lesson15;
 
 import java.util.TreeSet;
+import org.apache.log4j.Logger;
 
 public class Main {
+    public static final Logger LOGGER = Logger.getLogger(lesson16.Main.class);
     public static void main(String[] args) {
+
         Tovar tovar1 = new Tovar("phone", 10000);
         Tovar tovar2 = new Tovar("computer", 30000);
         Tovar tovar3 = new Tovar("microvafe", 5000);
         Tovar tovar4 = new Tovar("tv", 8000);
         Tovar tovar5 = new Tovar("samokat", 6000);
+        LOGGER.warn("Добавлен товар");
 
         Otziv otziv1 = new Otziv(5, "Good");
         Otziv otziv2 = new Otziv(4, "Very nice");
