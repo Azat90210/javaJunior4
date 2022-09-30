@@ -12,7 +12,7 @@ public class Main {
         Tovar tovar3 = new Tovar("microvafe", 5000);
         Tovar tovar4 = new Tovar("tv", 8000);
         Tovar tovar5 = new Tovar("samokat", 6000);
-        LOGGER.warn("Добавлен товар");
+        LOGGER.info("Добавлен товар");
 
         Otziv otziv1 = new Otziv(5, "Good");
         Otziv otziv2 = new Otziv(4, "Very nice");
@@ -50,18 +50,22 @@ public class Main {
 
         TreeSet <Tovar> sortByName = Tovar.sortByNameFromTo(tovars);
         System.out.println(sortByName);
+        LOGGER.info("Отсортировано по имени");
         System.out.println("____________________________");
 
         TreeSet <Tovar> sortByRateFromTo = Tovar.sortByRateFromTo(tovars);
         System.out.println(sortByRateFromTo);
+        LOGGER.info("Отсортировано по рейтингу");
         System.out.println("____________________________");
 
         TreeSet <Tovar> sortByOtzivFromTo = Tovar.sortByOtzivFromTo(tovars);
         System.out.println(sortByOtzivFromTo);
+        LOGGER.info("Отсортировано по отзывам");
         System.out.println("____________________________");
 
         TreeSet <Tovar> sortByObzorFromTo = Tovar.sortByObzorFromTo(tovars);
         System.out.println(sortByObzorFromTo);
+        LOGGER.info("Отсортировано по обзорам");
         System.out.println("____________________________");
         // по рейтигу, по отзывам и по обзорам
     }
