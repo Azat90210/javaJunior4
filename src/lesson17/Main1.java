@@ -6,6 +6,7 @@ public class Main1 {
     public static void main(String[] args) {
 
         TeamBlue starsie = new TeamBlue("Старшие");
+
         People peopleStarsie1 = new People("Василий", 14);
         People peopleStarsie2 = new People("Ольга", 13);
         People peopleStarsie3 = new People("Владимир", 12);
@@ -51,5 +52,8 @@ public class Main1 {
         ewq.printWinner(starsie, starsie1);
 
 
+
+
     }
+
 }

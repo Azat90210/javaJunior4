@@ -7,8 +7,10 @@ public class TeamBlue extends Team{
 
     public TeamBlue() {
     }
-
+Team star = new TeamBlue("Name");
     public TeamBlue(String name) {
         super(name);
     }
+
+
 }
