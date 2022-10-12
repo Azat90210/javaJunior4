@@ -10,8 +10,6 @@ public class Main5 {
             System.out.println("String: " + ois.readObject().toString());
             System.out.println("Point: " + (Point) ois.readObject());
             ois.close();
-
-
         }
         catch (Exception e) {
             e.printStackTrace();

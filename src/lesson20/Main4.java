@@ -4,6 +4,7 @@ import java.io.ObjectOutputStream;
 
 public class Main4 {
     public static void main(String[] args) {
+
         try{
             ObjectOutputStream ois = new java.io.ObjectOutputStream(new java.io.FileOutputStream("state.bin"));
             ois.writeDouble(3.14159265D);

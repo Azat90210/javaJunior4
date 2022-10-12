@@ -22,7 +22,5 @@ public class Main2 {
         } catch (IOException ex) {
             ex.printStackTrace();// Обработать исключение
         }
-
-
     }
 }

@@ -7,5 +7,6 @@ public class Main {
         cIO.copy("C:\\Users\\user\\Desktop\\ДБО\\ФОТО 1 смена 2020\\Солнечный\\_jlGPwO1eEQ.jpg", "qwe.jpg");
         long end = System.currentTimeMillis();
         System.out.println("Время работы старого IO = " + (end - start));
+
     }
 }
