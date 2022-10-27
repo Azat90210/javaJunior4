@@ -1,0 +1,19 @@
+.foto1{
+    float: left;
+    width: 33%;
+}
+.foto2{
+    float: right;
+    }
+.name {
+    color: rgb(2, 2, 33);
+}
+.name{
+    text-align: center;
+}
+.born{
+    text-align: center;
+}
+.bornPlace{
+    text-align: center;
+}
