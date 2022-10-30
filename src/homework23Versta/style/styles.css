@@ -1,19 +1,23 @@
 .foto1{
     float: left;
-    width: 33%;
+    width: 400;
 }
 .foto2{
     float: right;
+    width: 400;
     }
 .name {
     color: rgb(2, 2, 33);
-}
-.name{
     text-align: center;
+    width: 400;
+    border-top: 100;
 }
 .born{
     text-align: center;
 }
 .bornPlace{
     text-align: center;
+}
+div{
+    border: 100;
 }
