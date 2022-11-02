@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../fonts/DancingScript-Regular.woff2') format('woff2'),
+        url('../fonts/DancingScript-Regular.woff') format('woff'),
+        url('../fonts/DancingScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -8,8 +18,18 @@ h1:hover{
 }
 
 h1{
-    font-family: 'Shalimar', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 p{
     font-family: 'Shalimar', cursive;
+}
+table{
+border: 1px solid;
+}
+td{
+    border: 1px solid;
+}
+caption{
+    border: 1px solid;
+    color: red;
 }
