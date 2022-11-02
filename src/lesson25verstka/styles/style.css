@@ -1,0 +1,15 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1:hover{
+    color: aqua;
+}
+
+h1{
+    font-family: 'Shalimar', cursive;
+}
+p{
+    font-family: 'Shalimar', cursive;
+}
