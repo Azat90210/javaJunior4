@@ -1,0 +1,51 @@
+.top{
+    width: 100%;
+    position: relative;
+}
+
+.fon{
+   position: absolute;
+}
+.logo{
+    position: relative;
+    width: 150px;
+    top: 5px;
+    
+    z-index: 1;
+}
+.top{
+  top: 150px;
+ 
+}
+
+ .qwe{
+    z-index: 1;
+   /* border: 1px solid;*/
+    color: white;
+ }
+
+ .slogan {
+  position: relative;
+  text-align: center;
+  top: 200px;
+   color: white;
+   z-index: 1;
+ }
+ .top-niz{
+  position: relative;
+  top: 400px;
+  z-index: 2;
+ }
+ .galka{
+  width: 25px;
+ }
+ .top-niz1{
+    position: absolute;
+   left: 25px
+}
+.top-niz2{
+  position: absolute;
+  top: 50px;
+ left: 700px
+}
+

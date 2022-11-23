@@ -1,0 +1,79 @@
+.content{
+    background-color: grey;
+    height: 300px;
+    border: 1px double black;
+    position: relative;
+}
+
+
+.element{
+    background-color: aqua;
+    width: 30%;
+    height: 20%;
+    display: inline-block;
+}
+
+.div1{
+    background-color: white;
+    position: relative;
+}
+.div2{
+    height: 20px;
+    width: 60px;
+    top: 20px;
+    left: 40px;
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+   
+}
+.div3{
+    background-color: red;
+}
+.div2:hover{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.content_cart{
+    position: relative;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+.cart1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.cart2{
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.cart3{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.cart:hover{
+    z-index: 1;
+}
+
+.qwe{
+background-color: aqua;
+height: 20px;
+    width: 60px;
+}
+.qwe:hover{
+background-color: black;
+}
+.top-niz1{
+    position: absolute;
+   left: 25px
+}
