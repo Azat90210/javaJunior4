@@ -1,16 +1,15 @@
 *{
     font-family: 'Roboto Slab', serif;
-
 }
 
 html, body {
     margin: 0;
     padding: 0;
 }
+
 div{
     display: inline-block;
     vertical-align: top;
-
 }
 
 .leftHead{
@@ -20,9 +19,11 @@ div{
 .contentHead{
     width: 65%;
 }
+
 .header{
     text-align: center;
 }
+
 .rightHead{
     width: 15%;
 }
