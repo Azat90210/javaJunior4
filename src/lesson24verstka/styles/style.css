@@ -1,0 +1,8 @@
+*{
+    color: rgb(2, 2, 19);
+}
+div{
+    background-image: url("../img/scale_1200.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
