@@ -6,6 +6,8 @@ public class Main {
         mp.setDaemon(true);
         mp.start();
 
+        int number = 5;
+
         Thread myPotok = new Thread(new Mypotok2());
         myPotok.setDaemon(true);
         myPotok.start();

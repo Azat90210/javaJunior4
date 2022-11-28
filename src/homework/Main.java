@@ -7,7 +7,6 @@ public class Main {
         Page user2 = new Page("Мария", "Петрова", 21, "Саратов");
         Page user3 = new Page("Сергей", "Сидоров", 45, "Чебоксары");
 
-
         WallEntry wallEntry1 = new WallEntry("С днем рождения");
         WallEntry wallEntry2 = new WallEntry("C 8 марта");
 
